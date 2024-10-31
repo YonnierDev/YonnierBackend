@@ -5,7 +5,7 @@ function calcularIMC(peso: number, altura: number): string {
   let clasificacion = "";
 
   if (imc < 18.5) {
-    clasificacion = "Bajo peso";
+    clasificacion = "Bajo de peso";
   } else if (imc >= 18.5 && imc < 24.9) {
     clasificacion = "Peso Normal";
   } else if (imc >= 25 && imc < 29.9) {
